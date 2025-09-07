@@ -16,4 +16,17 @@ dill==0.3.8
 fsspec==2024.2.0
 autopep8==2.0.4
 
-# sk_d5f7149c8cec460c474eb8689acd089ca0d029b7a85951fb
+python-dotenv>=1.0.0
+pyttsx3>=2.90
+gtts>=2.3.2
+
+openai>=1.0.0
+elevenlabs>=0.2.0
+
+# elevenlabs sk_d5f7149c8cec460c474eb8689acd089ca0d029b7a85951fb
+
+# openai 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
+
+# running commands:
+# python backend.py
+# streamlit run main.py
