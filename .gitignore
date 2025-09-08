@@ -1,5 +1,3 @@
-# Create a comprehensive .gitignore
-cat > .gitignore << EOL
 # Environment
 .env
 *.env
@@ -40,20 +38,9 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-EOLvenv/
-fine_tuned_distilgpt2/
-venv/
+
+# Model files
 *.safetensors
 *.pt
 *.pth
 *.bin
-__pycache__/
-.env
-fine_tuned_distilgpt2/
-venv/
-*.safetensors
-*.pt
-*.pth
-*.bin
-__pycache__/
-.env
