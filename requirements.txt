@@ -1,44 +1,59 @@
-pylint==2.17.4
-pyttsx3==2.90
-transformers==4.38.2
-torch==2.2.1
-radon==6.0.1
-flask==2.3.2
+# pylint==2.17.4
+# pyttsx3==2.90
+# transformers==4.38.2
+# torch==2.2.1
+# radon==6.0.1
+# flask==2.3.2
+# streamlit==1.31.0
+# requests==2.32.3
+# accelerate==0.27.2
+# datasets==2.18.0
+# importlib-metadata==7.0.1
+# packaging==23.2
+# watchdog==4.0.1
+# numpy==1.24.4
+# dill==0.3.8
+# fsspec==2024.2.0
+# autopep8==2.0.4
+
+# python-dotenv>=1.0.0
+# gtts>=2.3.2
+
+# openai>=1.0.0
+# elevenlabs>=0.2.0
+# google-generativeai>=0.3.0
+
+# # # # elevenlabs sk_d5f7149c8cec460c474eb8689acd089ca0d029b7a85951fb
+
+# # # # openai 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
+
+# # # # running commands:
+# # # # python backend.py
+# # # # streamlit run main.py
+
+
+
+# streamlit==1.31.0
+# flask==2.3.2
+# transformers==4.38.2
+# torch==2.5.0
+# torchvision==0.20.0
+# torchaudio==2.5.0
+# radon==6.0.1
+# requests==2.32.3
+# autopep8==2.0.4
+# python-dotenv==1.0.0
+# gtts==2.3.2
+# openai==1.0.0
+# elevenlabs==0.2.0
+# pylint==2.17.4
+# pyttsx3==2.90
+
+# requirements.txt - CORRECTED VERSION
 streamlit==1.31.0
-requests==2.32.3
-accelerate==0.27.2
-datasets==2.18.0
-importlib-metadata==7.0.1
-packaging==23.2
-watchdog==4.0.1
-numpy==1.24.4
-dill==0.3.8
-fsspec==2024.2.0
-autopep8==2.0.4
-
-python-dotenv>=1.0.0
-gtts>=2.3.2
-
-openai>=1.0.0
-elevenlabs>=0.2.0
-google-generativeai>=0.3.0
-
-# # # elevenlabs sk_d5f7149c8cec460c474eb8689acd089ca0d029b7a85951fb
-
-# # # openai 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
-
-# # # running commands:
-# # # python backend.py
-# # # streamlit run main.py
-
-
-
-streamlit==1.31.0
 flask==2.3.2
 transformers==4.38.2
-torch==2.5.0
-torchvision==0.20.0
-torchaudio==2.5.0
+torch==2.5.0  # CHANGED FROM 2.2.1 to 2.5.0
 radon==6.0.1
 requests==2.32.3
 autopep8==2.0.4
@@ -48,3 +63,4 @@ openai==1.0.0
 elevenlabs==0.2.0
 pylint==2.17.4
 pyttsx3==2.90
+numpy==1.24.4
