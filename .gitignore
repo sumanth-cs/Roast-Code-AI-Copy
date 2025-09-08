@@ -40,4 +40,20 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-EOL
+EOLvenv/
+fine_tuned_distilgpt2/
+venv/
+*.safetensors
+*.pt
+*.pth
+*.bin
+__pycache__/
+.env
+fine_tuned_distilgpt2/
+venv/
+*.safetensors
+*.pt
+*.pth
+*.bin
+__pycache__/
+.env
